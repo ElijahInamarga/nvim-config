@@ -4,9 +4,9 @@ return {
   dependencies = {
     "nvim-lua/plenary.nvim",
     "MunifTanjim/nui.nvim",
-    "nvim-tree/nvim-web-devicons", 
+    "nvim-tree/nvim-web-devicons",
   },
-  lazy = false,  
+  lazy = false,
   config = function()
     vim.keymap.set("n", "<C-n>", ":Neotree toggle<CR>")
   end
