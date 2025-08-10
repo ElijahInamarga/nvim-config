@@ -1,17 +1,18 @@
 # Plugins
-- treesitter
-- telescope
+- Treesitter
+- Telescope
 - none-ls
-- neo-tree
-- lualine
-- mason
-- mason-lspconfig
+- Neo-tree
+- Lualine
+- Mason
+- Mason-lspconfig
 - nvim-lspconfig
 - nvim-cmp
 - LuaSnip
 - cmp-nvim-lsp
 - vim-fugitive
 - nvim-highlight-colors
+- Harpoon
 
 # Favorite Keybinds
 
