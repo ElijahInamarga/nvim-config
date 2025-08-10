@@ -25,8 +25,6 @@
 <C-]>                       -- Open next file in Harpoon menu buffer
 ```
 
-
-
 ## Telescope
 ```
 <leader>ff                  -- Open finder
