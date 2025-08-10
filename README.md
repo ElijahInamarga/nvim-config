@@ -1,3 +1,5 @@
+![nvim](https://github.com/ElijahInamarga/nvim-config/blob/main/nvim.png)
+
 # Plugins
 
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
