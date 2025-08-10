@@ -1,4 +1,5 @@
 # Plugins
+
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 - [none-ls](https://github.com/nvimtools/none-ls.nvim)
@@ -13,6 +14,7 @@
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [nvim-highlight-colors](https://github.com/brenoprata10/nvim-highlight-colors)
 - [Harpoon](https://github.com/ThePrimeagen/harpoon)
+- [Alpha-nvim](https://github.com/goolord/alpha-nvim)
 
 # Favorite Keybinds
 
