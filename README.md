@@ -1,18 +1,18 @@
 # Plugins
-- Treesitter
-- Telescope
-- none-ls
-- Neo-tree
-- Lualine
-- Mason
-- Mason-lspconfig
-- nvim-lspconfig
-- nvim-cmp
-- LuaSnip
-- cmp-nvim-lsp
-- vim-fugitive
-- nvim-highlight-colors
-- Harpoon
+- [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [Telescope](https://github.com/nvim-telescope/telescope.nvim)
+- [none-ls](https://github.com/nvimtools/none-ls.nvim)
+- [Neo-tree](https://github.com/nvim-neo-tree/neo-tree.nvim)
+- [Lualine](https://github.com/nvim-lualine/lualine.nvim)
+- [Mason](https://github.com/mason-org/mason.nvim)
+- [Mason-lspconfig](https://github.com/mason-org/mason-lspconfig.nvim)
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+- [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+- [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+- [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
+- [vim-fugitive](https://github.com/tpope/vim-fugitive)
+- [nvim-highlight-colors](https://github.com/brenoprata10/nvim-highlight-colors)
+- [Harpoon](https://github.com/ThePrimeagen/harpoon)
 
 # Favorite Keybinds
 
