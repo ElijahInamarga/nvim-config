@@ -1,4 +1,4 @@
-![nvim](https://github.com/ElijahInamarga/nvim-config/blob/main/nvim.png)
+![nvim](https://github.com/ElijahInamarga/nvim-config/blob/main/images/nvim.png)
 
 # Plugins
 
