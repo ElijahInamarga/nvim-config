@@ -1,5 +1,5 @@
 # nvim-config
-![nvim](https://github.com/ElijahInamarga/nvim-config/blob/main/images/nvim.png)
+![nvim](https://github.com/ElijahInamarga/nvim-config/blob/main/images/new_splashscreen.png)
 Basic Neovim configuration with LSP support, auto-formatting, and linter support for C/C++. File navigation handled with Harpoon, Neo-tree, and Telescope. Git version control improved with vim-fugitive.
 
 # Plugins
