@@ -22,9 +22,30 @@ return {
       local capabilities = require('cmp_nvim_lsp').default_capabilities()
       local lspconfig = require("lspconfig")
 
+      -- Configure error/warnings interface
+      vim.diagnostic.config({
+	  virtual_text = true,
+	  severity_sort = true,
+	  float = {
+	      style = 'minimal',
+	      border = 'rounded',
+	      header = '',
+	      prefix = '',
+	  },
+	  signs = {
+	      text = {
+		  [vim.diagnostic.severity.ERROR] = '✘',
+		  [vim.diagnostic.severity.WARN] = '▲',
+		  [vim.diagnostic.severity.HINT] = '⚑',
+		  [vim.diagnostic.severity.INFO] = '»',
+	      },
+	  },
+      })
+
       lspconfig.lua_ls.setup({
 	capabilities = capabilities
       })
+
       lspconfig.clangd.setup({
 	capabilities = capabilities
       })
