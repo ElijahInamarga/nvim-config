@@ -1,6 +1,6 @@
 # nvim-config
 ![nvim](https://github.com/ElijahInamarga/nvim-config/blob/main/images/new_splashscreen.png)
-Basic Neovim configuration with LSP support, auto-formatting, and linter support for C/C++. File navigation handled with Harpoon, Neo-tree, and Telescope. Git version control improved with vim-fugitive.
+Basic Neovim configuration with LSP support, auto-formatting, and linter support for C/C++. File navigation handled with Harpoon, Neo-tree, Persistence, and Telescope. Git version control improved with vim-fugitive.
 
 # Plugins
 
@@ -19,6 +19,7 @@ Basic Neovim configuration with LSP support, auto-formatting, and linter support
 - [nvim-highlight-colors](https://github.com/brenoprata10/nvim-highlight-colors)
 - [Harpoon](https://github.com/ThePrimeagen/harpoon)
 - [Alpha-nvim](https://github.com/goolord/alpha-nvim)
+- [Persistence](https://github.com/folke/persistence.nvim)
 
 # Favorite Keybinds
 
