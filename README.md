@@ -20,6 +20,7 @@ Basic Neovim configuration with LSP support, auto-formatting, and linter support
 - [Harpoon](https://github.com/ThePrimeagen/harpoon)
 - [Alpha-nvim](https://github.com/goolord/alpha-nvim)
 - [Persistence](https://github.com/folke/persistence.nvim)
+- [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 
 # Favorite Keybinds
 
