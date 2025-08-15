@@ -21,46 +21,46 @@ Basic Neovim configuration with LSP support, auto-formatting, and linter support
 - [Alpha-nvim](https://github.com/goolord/alpha-nvim)
 - [Persistence](https://github.com/folke/persistence.nvim)
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
-- [LazyGit](https://github.com/kdheepak/lazygit.nvim)
+- [LazyGit.nvim](https://github.com/kdheepak/lazygit.nvim)
 
 # Favorite Keybinds
 
-## LazyGit
+## LazyGit.nvim
 ```
-<leader>gg                  -- Open LazyGit menu
+<leader>gg                      -- Open LazyGit menu
 ```
 
 ## Harpoon
 ```
-<leader>a                   -- Add file to Harpoon menu buffer
-<C-e>                       -- Toggles Harpoon menu buffer
-<leader>fl                  -- Toggles Harpoon menu buffer with Telescope
-<C-[>                       -- Open previous file in Harpoon menu buffer
-<C-]>                       -- Open next file in Harpoon menu buffer
+<leader>a                       -- Add file to Harpoon menu buffer
+<C-e>                           -- Toggles Harpoon menu buffer
+<leader>fl                      -- Toggles Harpoon menu buffer with Telescope
+<C-[>                           -- Open previous file in Harpoon menu buffer
+<C-]>                           -- Open next file in Harpoon menu buffer
 ```
 
 ## Telescope
 ```
-<leader>ff                  -- Open finder
-<leader>fg                  -- Open finder with live grep
+<leader>ff                      -- Open finder
+<leader>fg                      -- Open finder with live grep
 ```
 
 ## Neo-tree
 ```
-<C-n>                       -- Toggle Neotree window
-<C-w>h,i,j, or k            -- Move buffers
+<C-n>                           -- Toggle Neotree window
+<C-w>h,i,j, or k                -- Move buffers
 ```
 
 ## None-ls
 ```
-<leader>fn                  -- Format file
+<leader>fn                      -- Format file
 ```
 
 ## Nvim-lspconfig
 ```
-K                           -- Show info
-gd                          -- Go to definition
-gD                          -- Go to declaration
-gi                          -- Go to implementation
-<leader>ca                  -- Access code actions
+K                               -- Show info
+gd                              -- Go to definition
+gD                              -- Go to declaration
+gi                              -- Go to implementation
+<leader>ca                      -- Access code actions
 ```
