@@ -17,7 +17,6 @@ Git version control improved with ```LazyGit``` and ```vim-fugitive```.
 - [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
 - [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
-- [nvim-highlight-colors](https://github.com/brenoprata10/nvim-highlight-colors)
 - [Harpoon](https://github.com/ThePrimeagen/harpoon)
 - [Alpha-nvim](https://github.com/goolord/alpha-nvim)
 - [Persistence](https://github.com/folke/persistence.nvim)
