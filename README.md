@@ -1,6 +1,7 @@
 # nvim-config
 ![nvim](https://github.com/ElijahInamarga/nvim-config/blob/main/images/new_splashscreen.png)
-Basic Neovim configuration with LSP support, auto-formatting, and linter support for C/C++. File navigation handled with ```Harpoon```, ```Neo-tree```, ```Persistence```, and ```Telescope```. Git version control improved with ```LazyGit``` and ```vim-fugitive```.
+Basic Neovim configuration with LSP support, auto-formatting, and linter support for C/C++. File navigation handled with ```Harpoon```, ```Neo-tree```, ```Persistence```, and ```Telescope```.
+Git version control improved with ```LazyGit``` and ```vim-fugitive```.
 
 # Plugins
 
@@ -22,8 +23,16 @@ Basic Neovim configuration with LSP support, auto-formatting, and linter support
 - [Persistence](https://github.com/folke/persistence.nvim)
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - [LazyGit.nvim](https://github.com/kdheepak/lazygit.nvim)
+- [comment.nvim](https://github.com/numToStr/Comment.nvim)
 
 # Favorite Keybinds
+
+## Comment.nvim
+```
+gcc                             -- Toggle linewise comment for current line
+gc                              -- Toggle linewise comment for multiple lines inside visual mode region
+gb                              -- Toggle blockwise comment for visual mode region
+```
 
 ## LazyGit.nvim
 ```
