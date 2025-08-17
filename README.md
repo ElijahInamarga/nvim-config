@@ -23,6 +23,7 @@ Git version control improved with ```LazyGit``` and ```vim-fugitive```.
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - [LazyGit.nvim](https://github.com/kdheepak/lazygit.nvim)
 - [comment.nvim](https://github.com/numToStr/Comment.nvim)
+- [smear-cursor](https://github.com/sphamba/smear-cursor.nvim)
 
 # Favorite Keybinds
 
