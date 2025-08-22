@@ -24,8 +24,14 @@ Git version control improved with ```LazyGit``` and ```vim-fugitive```.
 - [LazyGit.nvim](https://github.com/kdheepak/lazygit.nvim)
 - [comment.nvim](https://github.com/numToStr/Comment.nvim)
 - [smear-cursor](https://github.com/sphamba/smear-cursor.nvim)
+- [UndoTree](https://github.com/mbbill/undotree)
 
 # Favorite Keybinds
+
+## UndoTree
+```
+<leader>u                       -- Toggle undo worktree
+```
 
 ## Comment.nvim
 ```
