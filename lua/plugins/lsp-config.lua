@@ -47,8 +47,36 @@ return {
       })
 
       -- Configure and enable lua_ls using vim.lsp.config() API
+      local runtime_path = vim.split(package.path, ';')
+      table.insert(runtime_path, 'lua/?.lua')
+      table.insert(runtime_path, 'lua/?/init.lua')
+
       vim.lsp.config('lua_ls', {
-	capabilities = capabilities
+	capabilities = capabilities,
+	settings = {
+	  Lua = {
+	    runtime = {
+	      version = 'LuaJIT',
+	      path = runtime_path,
+	    },
+	    diagnostics = {
+	      globals = { 'vim', 'use' },
+	      disable = { 'missing-fields' },
+	    },
+	    workspace = {
+	      library = {
+		[vim.fn.expand('$VIMRUNTIME/lua')] = true,
+		[vim.fn.expand('$VIMRUNTIME/lua/vim/lsp')] = true,
+		[vim.fn.stdpath('config') .. '/lua'] = true,
+		[vim.fn.stdpath('data') .. '/lazy'] = true,
+	      },
+	      checkThirdParty = false,
+	    },
+	    telemetry = {
+	      enable = false,
+	    },
+	  },
+	},
       })
       vim.lsp.enable('lua_ls')
 
