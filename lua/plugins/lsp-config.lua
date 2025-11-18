@@ -1,10 +1,10 @@
 return {
   {
-    "mason-org/mason.nvim",
+    "williamboman/mason.nvim",
     opts = {}
   },
   {
-    "mason-org/mason-lspconfig.nvim",
+    "williamboman/mason-lspconfig.nvim",
     opts = {
         ensure_installed = {
 	  "lua_ls",
@@ -12,15 +12,19 @@ return {
 	},
     },
     dependencies = {
-        { "mason-org/mason.nvim", opts = {} },
+        { "williamboman/mason.nvim", opts = {} },
         "neovim/nvim-lspconfig",
     }
   },
   {
     "neovim/nvim-lspconfig",
+    dependencies = {
+      "hrsh7th/cmp-nvim-lsp",
+    },
     config = function()
+      -- nvim-lspconfig is still needed to register server configs
+      -- but we use vim.lsp.config() instead of require('lspconfig')
       local capabilities = require('cmp_nvim_lsp').default_capabilities()
-      local lspconfig = require("lspconfig")
 
       -- Configure error/warnings interface
       vim.diagnostic.config({
@@ -42,13 +46,17 @@ return {
 	  },
       })
 
-      lspconfig.lua_ls.setup({
+      -- Configure and enable lua_ls using vim.lsp.config() API
+      vim.lsp.config('lua_ls', {
 	capabilities = capabilities
       })
+      vim.lsp.enable('lua_ls')
 
-      lspconfig.clangd.setup({
+      -- Configure and enable clangd using vim.lsp.config() API
+      vim.lsp.config('clangd', {
 	capabilities = capabilities
       })
+      vim.lsp.enable('clangd')
 
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
       vim.keymap.set('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<cr>', {})
