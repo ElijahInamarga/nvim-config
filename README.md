@@ -21,27 +21,33 @@ Git version control improved with ```LazyGit``` and ```vim-fugitive```.
 - [Alpha-nvim](https://github.com/goolord/alpha-nvim)
 - [Persistence](https://github.com/folke/persistence.nvim)
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
-- [LazyGit.nvim](https://github.com/kdheepak/lazygit.nvim)
-- [comment.nvim](https://github.com/numToStr/Comment.nvim)
+- [LazyGit](https://github.com/kdheepak/lazygit.nvim)
+- [comment](https://github.com/numToStr/Comment.nvim)
 - [smear-cursor](https://github.com/sphamba/smear-cursor.nvim)
 - [UndoTree](https://github.com/mbbill/undotree)
-- [transparent.nvim](https://github.com/xiyaowong/transparent.nvim)
+- [transparent](https://github.com/xiyaowong/transparent.nvim)
+- [flash](https://github.com/folke/flash.nvim)
 
 # Favorite Keybinds
+
+## Flash
+```
+<zk>                            -- Navigate code through search labels
+```
 
 ## UndoTree
 ```
 <leader>u                       -- Toggle undo worktree
 ```
 
-## Comment.nvim
+## Comment
 ```
 gcc                             -- Toggle linewise comment for current line
 gc                              -- Toggle linewise comment for multiple lines inside visual mode region
 gb                              -- Toggle blockwise comment for visual mode region
 ```
 
-## LazyGit.nvim
+## LazyGit
 ```
 <leader>gg                      -- Open LazyGit menu
 ```
