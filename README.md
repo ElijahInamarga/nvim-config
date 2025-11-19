@@ -28,7 +28,7 @@ Git version control improved with ```LazyGit``` and ```vim-fugitive```.
 - [transparent](https://github.com/xiyaowong/transparent.nvim)
 - [flash](https://github.com/folke/flash.nvim)
 
-# Favorite Keybinds
+# Favorite Motions
 
 ## Flash
 ```
