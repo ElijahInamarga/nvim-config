@@ -54,15 +54,6 @@ return {
 
     alpha.setup(dashboard.opts)
 
-
-    dashboard.section.footer.val = {
-      [[                ]],
-      [[                ]],
-      [[                ]],
-      [[                ]],
-      [[ - By ElijahI - ]]
-    }
-
     -- Disable folding on alpha buffer
     vim.cmd([[
 	autocmd FileType alpha setlocal nofoldenable
