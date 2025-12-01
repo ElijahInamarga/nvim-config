@@ -1,7 +1,6 @@
-# nvim-config
+# Personal Neovim Configuration
+Basic Neovim configuration with LSP support, auto-formatting, and linter support for C/C++. 
 ![nvim](https://github.com/ElijahInamarga/nvim-config/blob/main/images/splashscreen_11-18-25.png)
-Basic Neovim configuration with LSP support, auto-formatting, and linter support for C/C++. File navigation handled with ```Harpoon```, ```Neo-tree```, ```Persistence```, and ```Telescope```.
-Git version control improved with ```LazyGit``` and ```vim-fugitive```.
 
 # Plugins
 
@@ -23,7 +22,6 @@ Git version control improved with ```LazyGit``` and ```vim-fugitive```.
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - [LazyGit](https://github.com/kdheepak/lazygit.nvim)
 - [comment](https://github.com/numToStr/Comment.nvim)
-- [smear-cursor](https://github.com/sphamba/smear-cursor.nvim)
 - [UndoTree](https://github.com/mbbill/undotree)
 - [transparent](https://github.com/xiyaowong/transparent.nvim)
 - [flash](https://github.com/folke/flash.nvim)
