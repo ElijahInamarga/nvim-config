@@ -1,7 +1,8 @@
 # Personal Neovim Configuration
 Basic Neovim configuration with LSP support, auto-formatting, and linter support for C and C++. Project and file navigation improved using plugins.
 
-![nvim](https://github.com/ElijahInamarga/nvim-config/blob/main/images/splashscreen_11-18-25.png)
+![](https://github.com/ElijahInamarga/nvim-config/blob/main/images/splashscreen_11-18-25.png)
+![](https://github.com/ElijahInamarga/nvim-config/blob/main/images/nvim_showcase_2.png)
 
 # Plugins
 
