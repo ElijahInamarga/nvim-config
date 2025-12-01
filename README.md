@@ -1,14 +1,23 @@
 # ⌨️ Personal Neovim Configuration
-Basic Neovim configuration with LSP support, auto-formatting, and linter support for C and C++.
+Basic Neovim configuration with LSP support, auto-formatting, and linter support for C and C++. Project and file navigation improved using plugins. Git supercharged with LazyGit.
 
 ![](https://github.com/ElijahInamarga/nvim-config/blob/main/images/splashscreen_11-18-25.png)
 ![](https://github.com/ElijahInamarga/nvim-config/blob/main/images/nvim_showcase_2.png)
 
-Project and file navigation improved using plugins. Git supercharged with LazyGit.
-
+# Hierarchy
+Add personal plugins in `lua/plugins/`. The package manager will automatically load new plugins.
+```
+nvim/  
+├── lua/
+    ├── options.lua
+    ├── plugins/
+├── init.lua
+├── README.md
+├── images/
+```
 # 🚀 Plugins and Favorite Motions
 
-This comprehensive table provides an overview of each major plugin, its function, and all associated keybindings (`<leader>` is typically `Space`).
+This comprehensive table provides an overview of each major plugin, its function, and all associated keybindings (`<leader>` is `Space`).
 
 | Plugin Name | Purpose / Function | Keybinding(s) | 
  | ----- | ----- | ----- | 
