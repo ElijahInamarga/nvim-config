@@ -1,10 +1,10 @@
-# Personal Neovim Configuration
+# 📦 Personal Neovim Configuration
 Basic Neovim configuration with LSP support, auto-formatting, and linter support for C and C++. Project and file navigation improved using plugins. Git supercharged with LazyGit.
 
 ![](https://github.com/ElijahInamarga/nvim-config/blob/main/images/splashscreen_11-18-25.png)
 ![](https://github.com/ElijahInamarga/nvim-config/blob/main/images/nvim_showcase_2.png)
 
-# Plugins
+# 🚀 Plugins
 
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim)
@@ -28,7 +28,7 @@ Basic Neovim configuration with LSP support, auto-formatting, and linter support
 - [transparent](https://github.com/xiyaowong/transparent.nvim)
 - [flash](https://github.com/folke/flash.nvim)
 
-# Favorite Motions
+# ⌨️ Favorite Motions
 
 ## Flash
 ```
