@@ -21,16 +21,9 @@ return {
       [[                                                                       ]],
       [[                                                                       ]],
       [[                                                                       ]],
-      [[                                                                       ]],
-      [[                                                                     ]],
-      [[       ████ ██████           █████      ██                     ]],
-      [[      ███████████             █████                             ]],
-      [[      █████████ ███████████████████ ███   ███████████   ]],
-      [[     █████████  ███    █████████████ █████ ██████████████   ]],
-      [[    █████████ ██████████ █████████ █████ █████ ████ █████   ]],
-      [[  ███████████ ███    ███ █████████ █████ █████ ████ █████  ]],
-      [[ ██████  █████████████████████ ████ █████ █████ ████ ██████ ]],
-      [[                                                                       ]],
+      [[                    ╭─────────────────────────────╮                    ]],
+      [[                    │        Welcome back!        │                    ]],
+      [[                    ╰─────────────────────────────╯                    ]],
       [[                                                                       ]],
       [[                                                                       ]],
       [[                                                                       ]],
@@ -41,9 +34,9 @@ return {
 
     -- Set menu
     dashboard.section.buttons.val = {
+	dashboard.button("r", "󰄉 " .. " Restore Sessions", "<cmd>lua require('persistence').select()<cr>"),
 	dashboard.button("f", " " .. " Find file", 	  "<cmd>cd $HOME/Documents | Telescope find_files<CR>"),
 	dashboard.button("s", " " .. " Open Config" , 	  "<cmd>e $MYVIMRC | cd %:p:h | wincmd k | pwd<CR>"),
-	dashboard.button("r", " " .. " Restore Session", "<cmd>lua require('persistence').load({ last = true })<cr>"),
 	dashboard.button("l", "󰒲 " .. " Open Lazy",       "<cmd>Lazy<cr>"),
 	dashboard.button("q", " " .. " Quit",            "<cmd>qa<cr>"),
     }
