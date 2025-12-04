@@ -21,7 +21,7 @@ This comprehensive table provides an overview of each major plugin, its function
 | [**LSP (via nvim-lspconfig)**](https://github.com/neovim/nvim-lspconfig) | Core Language Server features (definition, hover docs, code actions). | `K`, `gd`, `gD`, `gi`, `<leader>ca` | 
 | [**Telescope**](https://github.com/nvim-telescope/telescope.nvim) | High-speed Fuzzy Finder for files (`<leader>ff`), buffers, and content (`Live Grep: <leader>fg`). | `<leader>ff`, `<leader>fg` | 
 | [**Harpoon**](https://github.com/ThePrimeagen/harpoon) | Quick-jump utility for marking and cycling between frequently used files. | `<leader>a`, `<C-e>`, `<C-[>`, `<C-]>` | 
-| [**Neo-tree**](https://github.com/nvim-neo-tree/neo-tree.nvim) | Modern File Explorer / Project Tree interface. | `<C-n>` | 
+| [**Yazi**](https://github.com/mikavilpas/yazi.nvim) | Terminal-integrated File Explorer. | `<C-n>` | 
 | [**none-ls**](https://github.com/nvimtools/none-ls.nvim) | Integrates external formatters and linters (e.g., clang-format). | `<leader>fn` | 
 | [**LazyGit**](https://github.com/kdheepak/lazygit.nvim) | Opens the fully-featured, integrated Git Terminal UI. | `<leader>gg` | 
 | [**UndoTree**](https://github.com/mbbill/undotree) | Visual graph interface for inspecting and reverting undo history. | `<leader>u` | 
