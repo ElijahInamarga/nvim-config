@@ -30,7 +30,6 @@ This comprehensive table provides an overview of each major plugin, its function
 | [**nvim-cmp**](https://github.com/hrsh7th/nvim-cmp) | Autocompletion | *N/A (Automatic)* | 
 | [**LuaSnip**](https://github.com/L3MON4D3/LuaSnip) | Snippet Engine | *N/A (Automatic)* | 
 | [**Alpha-nvim**](https://github.com/goolord/alpha-nvim) | Custom start screen aesthetics | *N/A (Visual)* | 
-| [**mini.statusline**](https://github.com/nvim-mini/mini.statusline) | Status line aesthetics | *N/A (Visual)* | 
+| [**lualine**](https://github.com/nvim-lualine/lualine.nvim/tree/master) | Status line aesthetics | *N/A (Visual)* | 
 | [**Persistence**](https://github.com/folke/persistence.nvim) | Automatically saves and restores sessions/layouts | *N/A (Automatic)* | 
 | [**nvim-autopairs**](https://github.com/windwp/nvim-autopairs) | Automatic pairing of quotes and brackets | *N/A (Automatic)* |
-| [**transparent.nvim**](https://github.com/xiyaowong/transparent.nvim) | Make neovim transparent | *N/A (Visual)* |

@@ -1,7 +1,9 @@
 return{
-  'nvim-mini/mini.statusline',
-  version = '*',
+  'nvim-lualine/lualine.nvim',
+  dependencies = { 'nvim-tree/nvim-web-devicons' },
   config = function()
-    require('mini.statusline').setup()
+    require('lualine').setup({
+      options = { theme = 'gruvbox-material', section_separators = '', component_separators = ''}
+    })
   end
 }
