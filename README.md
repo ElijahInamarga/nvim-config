@@ -8,7 +8,6 @@ nvim/
     ├── plugins/
 ├── init.lua
 ├── README.md
-├── images/
 ```
 # Plugins and Favorite Motions
 
