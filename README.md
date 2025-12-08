@@ -1,4 +1,4 @@
-# ⚙️ Personal Neovim Configuration
+# Personal Neovim Configuration
 Basic Neovim configuration with LSP support, auto-formatting, and linter support for C and C++. Version control and file management supercharged with `LazyGit` and `Yazi`.
 Add personal plugins in `lua/plugins/`.
 ```
@@ -10,7 +10,7 @@ nvim/
 ├── README.md
 ├── images/
 ```
-# 🚀 Plugins and Favorite Motions
+# Plugins and Favorite Motions
 
 This comprehensive table provides an overview of each major plugin, its function, and all associated keybindings (`<leader>` is `Space`).
 
