@@ -1,6 +1,6 @@
-# Personal Neovim Configuration
-Basic Neovim configuration with LSP support, auto-formatting, and linter support for C and C++. Version control and file management supercharged with `LazyGit` and `Yazi`.
-Add personal plugins in `lua/plugins/`.
+# My personal Neovim Configuration
+A basic Neovim configuration for C and C++. Version control and file management supercharged with `LazyGit` and `Yazi`.
+
 ```
 nvim/  
 ├── lua/
