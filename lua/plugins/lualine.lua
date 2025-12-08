@@ -1,8 +1,7 @@
 return{
-  'nvim-lualine/lualine.nvim',
+  'nvim-mini/mini.statusline',
+  version = '*',
   config = function()
-    require('lualine').setup({
-      options = { theme = 'seoul256' }
-    })
+    require('mini.statusline').setup()
   end
 }
