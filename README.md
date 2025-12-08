@@ -12,7 +12,7 @@ nvim/
 ```
 # Plugins and Favorite Motions
 
-This comprehensive table provides an overview of each major plugin, its function, and all associated keybindings (`<leader>` is `Space`).
+This comprehensive table provides an overview of each plugin, its function, and all associated keybindings. (`<leader>` is `Space`)
 
 | Plugin Name | Purpose / Function | Keybinding(s) | 
  | ----- | ----- | ----- | 
