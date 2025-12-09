@@ -28,7 +28,5 @@ This comprehensive table provides an overview of each plugin, its function, and 
 | [**Treesitter**](https://github.com/nvim-treesitter/nvim-treesitter) | Superior syntax parsing and highlighting | *N/A (Passive)* | 
 | [**nvim-cmp**](https://github.com/hrsh7th/nvim-cmp) | Autocompletion | *N/A (Automatic)* | 
 | [**LuaSnip**](https://github.com/L3MON4D3/LuaSnip) | Snippet Engine | *N/A (Automatic)* | 
-| [**Alpha-nvim**](https://github.com/goolord/alpha-nvim) | Custom start screen aesthetics | *N/A (Visual)* | 
 | [**lualine**](https://github.com/nvim-lualine/lualine.nvim/tree/master) | Status line aesthetics | *N/A (Visual)* | 
-| [**Persistence**](https://github.com/folke/persistence.nvim) | Automatically saves and restores sessions/layouts | *N/A (Automatic)* | 
 | [**nvim-autopairs**](https://github.com/windwp/nvim-autopairs) | Automatic pairing of quotes and brackets | *N/A (Automatic)* |
