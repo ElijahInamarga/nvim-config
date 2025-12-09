@@ -1,15 +1,7 @@
 # My personal Neovim Configuration
 A basic Neovim configuration for C and C++. Version control and file management supercharged with `LazyGit` and `Yazi`.
 
-```
-nvim/  
-├── lua/
-    ├── options.lua
-    ├── plugins/
-├── init.lua
-├── README.md
-```
-# Plugins and Favorite Motions
+# Plugins and Motions
 
 This comprehensive table provides an overview of each plugin, its function, and all associated keybindings. (`<leader>` is `Space`)
 
