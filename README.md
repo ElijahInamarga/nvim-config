@@ -1,18 +1,8 @@
 # My personal Neovim Configuration
 A basic Neovim configuration for C and C++. Version control and file management supercharged with `LazyGit` and `Yazi`.
 
-```
-nvim/  
-├── lua/
-    ├── options.lua
-    ├── plugins/
-├── init.lua
-├── README.md
-```
-# Plugins and Favorite Motions
-
-This comprehensive table provides an overview of each plugin, its function, and all associated keybindings. (`<leader>` is `Space`)
-
+# Plugins and Motions 
+`<leader>` is `Space`
 | Plugin Name | Purpose / Function | Keybinding(s) | 
  | ----- | ----- | ----- | 
 | [**LSP (via nvim-lspconfig)**](https://github.com/neovim/nvim-lspconfig) | Core Language Server features (definition, hover docs, code actions) | `K`, `gd`, `gD`, `gi`, `<leader>ca` | 
