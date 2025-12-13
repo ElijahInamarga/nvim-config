@@ -2,7 +2,6 @@
 A basic Neovim configuration for C and C++.
 
 # Plugins and Motions 
-`<leader>` is `Space`
 | Plugin Name | Purpose / Function | Keybinding(s) | 
  | ----- | ----- | ----- | 
 | [**LSP (via nvim-lspconfig)**](https://github.com/neovim/nvim-lspconfig) | Core Language Server features (definition, hover docs, code actions) | `K`, `gd`, `gD`, `gi`, `<leader>ca` | 
@@ -17,3 +16,4 @@ A basic Neovim configuration for C and C++.
 | [**LuaSnip**](https://github.com/L3MON4D3/LuaSnip) | Snippet Engine | *N/A (Automatic)* | 
 | [**lualine**](https://github.com/nvim-lualine/lualine.nvim/tree/master) | Status line aesthetics | *N/A (Visual)* | 
 | [**nvim-autopairs**](https://github.com/windwp/nvim-autopairs) | Automatic pairing of quotes and brackets | *N/A (Automatic)* |
+| *N/A* | Split window vertically | `<leader>v` |
