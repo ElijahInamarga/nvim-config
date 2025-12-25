@@ -1,5 +1,5 @@
 # My personal Neovim Configuration
-A basic Neovim configuration for C and C++.
+A basic Neovim configuration built for C and C++ programming
 
 # Plugins and Motions 
 | Plugin Name | Purpose / Function | Keybinding(s) | 
@@ -14,6 +14,5 @@ A basic Neovim configuration for C and C++.
 | [**Treesitter**](https://github.com/nvim-treesitter/nvim-treesitter) | Superior syntax parsing and highlighting | *N/A (Passive)* | 
 | [**nvim-cmp**](https://github.com/hrsh7th/nvim-cmp) | Autocompletion | *N/A (Automatic)* | 
 | [**LuaSnip**](https://github.com/L3MON4D3/LuaSnip) | Snippet Engine | *N/A (Automatic)* | 
-| [**lualine**](https://github.com/nvim-lualine/lualine.nvim/tree/master) | Status line aesthetics | *N/A (Visual)* | 
 | [**nvim-autopairs**](https://github.com/windwp/nvim-autopairs) | Automatic pairing of quotes and brackets | *N/A (Automatic)* |
 | *N/A* | Split window vertically | `<leader>v` |
