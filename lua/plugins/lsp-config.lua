@@ -22,31 +22,8 @@ return {
       "hrsh7th/cmp-nvim-lsp",
     },
     config = function()
-      -- nvim-lspconfig is still needed to register server configs
-      -- but we use vim.lsp.config() instead of require('lspconfig')
       local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
-      -- Configure error/warnings interface
-      vim.diagnostic.config({
-	  virtual_text = true,
-	  severity_sort = true,
-	  float = {
-	      style = 'minimal',
-	      border = 'rounded',
-	      header = '',
-	      prefix = '',
-	  },
-	  signs = {
-	      text = {
-		  [vim.diagnostic.severity.ERROR] = '󰅚',
-		  [vim.diagnostic.severity.WARN] = '󰀪 ',
-		  [vim.diagnostic.severity.HINT] = '󰌶',
-		  [vim.diagnostic.severity.INFO] = '󰋽',
-	      },
-	  },
-      })
-
-      -- Configure and enable lua_ls using vim.lsp.config() API
       local runtime_path = vim.split(package.path, ';')
       table.insert(runtime_path, 'lua/?.lua')
       table.insert(runtime_path, 'lua/?/init.lua')
