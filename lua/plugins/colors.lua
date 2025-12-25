@@ -4,11 +4,10 @@ return {
     lazy = false,
     priority = 1000,
     config = function()
-      -- This setup function selects and loads the theme called 'gorgoroth'
       require("black-metal").setup({
-        theme = "gorgoroth",
+        theme = "nile",
       })
-      require("black-metal").load() -- Apply the theme
+      require("black-metal").load()
 
       -- Custom cursor line and status line 
       vim.api.nvim_set_hl(0, "CursorLine", { bg = "#222222", underline = false })
