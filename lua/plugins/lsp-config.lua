@@ -23,7 +23,16 @@ return {
     },
     config = function()
       local capabilities = require('cmp_nvim_lsp').default_capabilities()
-
+      vim.diagnostic.config({
+	  virtual_text = true,
+	  severity_sort = true,
+	  float = {
+	      style = 'minimal',
+	      border = 'rounded',
+	      header = '',
+	      prefix = '',
+	  },
+      })
       local runtime_path = vim.split(package.path, ';')
       table.insert(runtime_path, 'lua/?.lua')
       table.insert(runtime_path, 'lua/?/init.lua')
