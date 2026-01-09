@@ -68,7 +68,11 @@ return {
 
       -- Configure and enable clangd using vim.lsp.config() API
       vim.lsp.config('clangd', {
-	capabilities = capabilities
+	capabilities = capabilities,
+	cmd = {
+		"clangd",
+		"--header-insertion=never",
+	},
       })
       vim.lsp.enable('clangd')
 
