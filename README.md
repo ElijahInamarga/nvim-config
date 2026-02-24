@@ -16,3 +16,4 @@ A basic Neovim configuration built for C and C++ programming
 | [**LuaSnip**](https://github.com/L3MON4D3/LuaSnip) | Snippet Engine | *N/A (Automatic)* | 
 | [**nvim-autopairs**](https://github.com/windwp/nvim-autopairs) | Automatic pairing of quotes and brackets | *N/A (Automatic)* |
 | *N/A* | Split window vertically | `<leader>v` |
+| *N/A* | Rename | `<leader>rn` |
