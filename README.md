@@ -12,6 +12,7 @@ A basic Neovim configuration built for C and C++ programming
 | [**flash**](https://github.com/folke/flash.nvim) | Enhanced search and motion using jump labels | `<zk>` | 
 | [**comment**](https://github.com/numToStr/Comment.nvim) | Simple, efficient toggle for code comments (linewise/blockwise) | `gcc`, `gc`, `gb` | 
 | [**Treesitter**](https://github.com/nvim-treesitter/nvim-treesitter) | Superior syntax parsing and highlighting | *N/A (Passive)* | 
+| [**Yazi**](https://github.com/mikavilpas/yazi.nvim) | Integrated file manager within nvim | `<leader>cw` | 
 | [**nvim-cmp**](https://github.com/hrsh7th/nvim-cmp) | Autocompletion | *N/A (Automatic)* | 
 | [**LuaSnip**](https://github.com/L3MON4D3/LuaSnip) | Snippet Engine | *N/A (Automatic)* | 
 | [**nvim-autopairs**](https://github.com/windwp/nvim-autopairs) | Automatic pairing of quotes and brackets | *N/A (Automatic)* |
